@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+ background-color: rgb(44, 187, 253);
+ -webkit-font-smoothing: antialiased;
+ display: flex;
+ flex-direction: column;
+ margin: auto;
+}
+
+body, input, button {
+ font-size: 20px;
+ font-family: 'Noto Sans TC', sans-serif;;
+}
+
+button {
+ cursor: pointer;
+}
+.Section1{
+    min-height: 100vh;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Section1 h1{
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top:3em;
+    margin-bottom:0.2em;
+    font-size: 70px;
+    display: flex;
+}
+.Section1 h1::before,
+.Section1 h1::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    flex-grow: 1;
+    margin: auto;
+}
+.Section1 h1::before{
+    margin-right: .5em;
+}
+.Section1 h1::after{
+    margin-left: .5em;
+}
+
+.main-header{
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-header .item{
+    margin: auto;
+    padding: 20px ;
+    display: flex;
+}
+
+.main-header .item a{
+    text-decoration: none;
+    font-size: 50px;
+    color: blanchedalmond;
+    border: 2px solid blanchedalmond;
+    border-radius: 25px;
+    padding: 0 40px;
+    transition: 3s;
+}
+
+.item li{
+    padding: 0 20px;
+    transition: 3s;
+}
+
+.item li+li{
+    padding-left: 0;
+}
+
+.item li+li::before{
+    content: '●';
+    color: blanchedalmond;
+    margin-right: 20px;
+    line-height: 50px;
+    justify-content: center;
+    padding: 0 20px;
+    font-size: 40px;
+}
+
+.main-container{
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    background-color: azure;
+    border-radius: 15px;
+    margin-top: 5rem;
+}
+
+.text{
+    padding: 20px 10px;
+    margin: auto;
+}
+
+.text h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0px;
+}
+
+.Section2{
+    height: 100vh;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Section2 h1{
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom:0.2em;
+    font-size: 70px;
+    display: flex;
+}
+
+.Section2 h1::before,
+.Section2 h1::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    flex-grow: 1;
+    margin: auto;
+}
+.Section2 h1::before{
+    margin-right: .5em;
+}
+.Section2 h1::after{
+    margin-left: .5em;
+}
+
+
+.Section2 .container{
+    width: 1200px;
+    margin: auto;
+    margin-top: 3em;
+}
+.Section2 .container .item{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    background-color: skyblue;
+    border-radius: 30px;
+    margin-top: 3em;
+}
+.Section2 .pic{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.Section2 .txt{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: snow;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Section2 .txt h2{
+    font-size: 40px;
+}
+
+.Section3{
+    height: 100vh;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;;
+}
+
+.Section3 h1{
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom:0.2em;
+    font-size: 70px;
+    display: flex;
+}
+
+
+.Section3 h1::before,
+.Section3 h1::after{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    flex-grow: 1;
+    margin: auto;
+}
+.Section3 h1::before{
+    margin-right: .5em;
+}
+.Section3 h1::after{
+    margin-left: .5em;
+}
+.Section3 .container{
+    width: 100%;
+}
+.Section3 .item-video{
+    margin-top: 2em;
+    margin: auto;
+}
+.Section3 .item-video h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 1em 0px;
+}
+
+.Section3 iframe{
+    width: 45%;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.Section3 .item-web h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.Section3 .item-web .item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0px;
+}
+
+.Section3 .item-web .item img{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.Section3 .item-web{
+    height: 100vh;
+}
+
